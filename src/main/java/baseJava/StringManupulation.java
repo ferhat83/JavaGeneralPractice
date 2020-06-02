@@ -1,4 +1,4 @@
-package practice;
+package baseJava;
 
 public class StringManupulation {
 	public static void main(String[] args) {
@@ -126,8 +126,7 @@ public class StringManupulation {
 		System.out.println("value of e is : "+e);
 		System.out.println("value of f is : "+f);
 		System.out.println("*****************************");
-		    
-		      // b- with using 3rd variable:
+		    // b- with using 3rd variable:
 		System.out.println("2-swapping using 3rd variable :");
 		String g = "Hello";
 		String k = "World";
@@ -160,6 +159,9 @@ public class StringManupulation {
 	    String str10 ="s";
 	    String finalString = str10 + str9;
 	    System.out.println("the final String is : " + finalString );
+	    
+	    
+	    
 		    
 
 		

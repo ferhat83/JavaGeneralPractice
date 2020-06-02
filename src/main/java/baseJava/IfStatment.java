@@ -1,4 +1,4 @@
-package practice;
+package baseJava;
 
 public class IfStatment {
 	
