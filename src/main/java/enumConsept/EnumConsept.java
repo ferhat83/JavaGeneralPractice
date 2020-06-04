@@ -6,6 +6,7 @@ package enumConsept;
 
 enum MobileCompanies{
 	APPLE, SAMSUNG, HTC;//We use column between the variables and semi-column at the end
+	// we are allow to create method and variables inside an enum 
 }
 public class EnumConsept {
 //we can also create enum here 
