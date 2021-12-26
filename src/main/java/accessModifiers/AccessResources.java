@@ -10,5 +10,20 @@ public class AccessResources {
 	private int hours2 = 1000;
 	protected  String test2 = "hello all FRIENDS ";
 	protected static String test = "hello all";
-
+    
+	public String testPublic() {
+		String tests="test public method";
+    System.out.println(tests);
+	return tests;
+    }
+	private String testPrivate() {
+		String tests="test private method";
+    System.out.println(tests);
+	return tests;
+    }
+	protected String testProtected() {
+		String tests="test protected method";
+    System.out.println(tests);
+	return tests;
+    }
 }
