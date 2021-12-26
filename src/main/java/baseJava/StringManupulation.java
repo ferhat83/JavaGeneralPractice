@@ -61,7 +61,7 @@ public class StringManupulation {
 	  
 	  //11- concatenation
 	  String s3 = "cases";
-	  System.out.println(s3.concat("s")); // add a carachter or a string to an existing string 
+	  System.out.println(s3.concat("s")); // add a character or a string to an existing string 
 	  
 	    int a = 100;
 		int b = 200;
@@ -161,10 +161,5 @@ public class StringManupulation {
 	    System.out.println("the final String is : " + finalString );
 	    
 	    
-	    
-		    
-
-		
-	  
 	}
 }

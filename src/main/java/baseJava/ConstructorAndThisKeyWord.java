@@ -38,9 +38,6 @@ public class ConstructorAndThisKeyWord {
 		this.engine= engine;
 	}
 	
-	
-	
-
 	public static void main(String[] args) {
 		ConstructorAndThisKeyWord obj = new ConstructorAndThisKeyWord();
 		ConstructorAndThisKeyWord obj1 = new ConstructorAndThisKeyWord(10);
