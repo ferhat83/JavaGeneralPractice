@@ -15,10 +15,7 @@ public class ReverseASentence {
 		System.out.println("array lenght is: "+test.length);
 		System.out.print("Reverced sentence is: ");
 		for(int i=test.length-1; i>=0; i--) {
-			System.out.print(test[i]+" ");
-			
-		}
-		
+			System.out.print(test[i]+" ");			
+		}		
 	}
-
 }
