@@ -2,6 +2,15 @@ package stirngManipulation;
 
 public class ReverseASentence {
 	public static void main(String[] args) {
+		//print following sentence backward 
+		String stp = "azul fellawen mare anda matelam";
+		String[] tct = stp.split(" ");
+		for(int i=tct.length-1;i>=0; i-- ) {
+			
+			System.out.print(tct[i]+" ");
+			
+		}
+		
 		System.out.println();
 		//reverse st as a all string
 		String st1 = "the sky is blue";
@@ -16,6 +25,8 @@ public class ReverseASentence {
 		System.out.print("Reverced sentence is: ");
 		for(int i=test.length-1; i>=0; i--) {
 			System.out.print(test[i]+" ");			
-		}		
+		}
+		
 	}
+	
 }

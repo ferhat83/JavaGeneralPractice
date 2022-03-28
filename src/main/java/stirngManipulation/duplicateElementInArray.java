@@ -1,13 +1,16 @@
 package stirngManipulation;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class duplicateElementInArray {
 
 	public static void main(String[] args) {
 		int [] test = {1,2,3,3,5,6,9,9,10};
 		for(int i=0; i<test.length-1; i++ ) {
 			for(int j=i+1; j<test.length; j++) {
-				if(test[i]==test[j]) {
-					
+				if(test[i]==test[j]) {					
 					System.out.println("repeted value is: "+test[j]);
 				}
 				
@@ -25,6 +28,7 @@ public class duplicateElementInArray {
 			}
 			
 		}
+     
 	}
 
 }

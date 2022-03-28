@@ -18,13 +18,31 @@ public class ReverseString {
 		// approach2 using StringBuffer
 		System.out.println("II- Aproche 2:");
 		StringBuffer st = new StringBuffer(atr);
-		System.out.print("reverce of hello world using StringBuffer is: " + st.reverse());
+		System.out.print("reverce of hello world using StringBuffer is: " + st.reverse().toString());
+		
+		System.out.println();
+		
+		
 		
 		System.out.println();
 		// approach3 using StringBuilder
-		System.out.println("II- Aproche 3:");
+		System.out.println("III- Aproche 3:");
 		StringBuilder sts = new StringBuilder(atr);
-		System.out.print("reverce of hello world using StringBuilder method is: " + sts.reverse());
+		System.out.print("reverce of hello world using StringBuilder method is: " + sts.reverse().toString());
+		
+		System.out.println();
+		// approach4 using StringBuffer
+		System.out.println("IV- Aproche 4:");
+		System.out.print("reverce of hello world using StringBuffer & loop is: " + stringBuilterAndLoop(atr));
+	}
+	public static String stringBuilterAndLoop(String stttt) {
+				
+				StringBuilder st4 = new StringBuilder();
+				for(int i=stttt.length()-1; i>=0; i--) {
+					st4.append(stttt.charAt(i));				
+				}
+				
+				return st4.toString();		
 	}
 
 }
